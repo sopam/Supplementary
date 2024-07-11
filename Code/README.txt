@@ -1,3 +1,5 @@
+Pre_Requisite: Install s(CASP)- https://gitlab.software.imdea.org/ciao-lang/sCASP
+
 1) Find Path:
 
 	a) This is the proof of concept to show we can show the states from initial to final in a series.
