@@ -1,0 +1,30 @@
+MODEL:
+{ relationship(1,unmarried),  lite_relationship(1,unmarried),  sex(1,male),  lite_sex(1,male),  relationship(2,unmarried),  lite_relationship(2,unmarried),  sex(2,male),  lite_sex(2,male),  lite_le_50K(never_married,1000,7),  not lite_le_50K(never_married,B1 | {B1 #> 6849,B1 #=< 99999},7),  lite_relationship(Var46 | {Var46 \= 1,Var46 \= 2},unmarried),  lite_sex(Var54 | {Var54 \= 1,Var54 \= 2},male) }
+BINDINGS: 
+TN = 2 
+T1 = 1 
+A = never_married 
+B = 1000 
+C = 7 
+D = unmarried 
+E = male 
+F = 28 
+_V1 = never_married 
+_V2 #> 1000,_V2 #=< 99999 
+_V3 #>= 1,_V3 #=< 16 
+_V4 = unmarried 
+_V5 = male 
+_V6 #>= 17,_V6 #=< 90 
+Z1 = 0 
+Z2 = 1 
+Z3 = 0 
+Z4 = 1 
+Z5 = 0 
+Z6 = 0 
+A1 = never_married 
+B1 #> 6849,B1 #=< 99999 
+C1 = 7 
+D1 = unmarried 
+E1 = male 
+F1 = 28 
+Opt = [state(time(2),[never_married,B1 | {B1 #> 6849,B1 #=< 99999},7,unmarried,male,28]),<-D2,state(time(1),[never_married,1000,7,unmarried,male,28])]

@@ -1,0 +1,32 @@
+(base) spam@Sopams-Mac-mini Car_evaluation % scasp get_path.pl -s0
+% QUERY:?- TN #= 2,A = 4,B = low,C = med,D = med,get_path(1,1,1,1,1,A,B,C,D,TN,A1,B1,C1,D1,[state(time(1),[A,B,C,D])],X).
+
+        ANSWER: 1 (in 1221.678 ms)
+
+MODEL:
+{ lite_reject(4,low,med,med),  rule_2(low),  not lite_reject(4,med,med,med) }
+BINDINGS: 
+TN = 2 
+A = 4 
+B = low 
+C = med 
+D = med 
+A1 = 4 
+B1 = med 
+C1 = med 
+D1 = med 
+X = [state(time(2),[4,med,med,med]),<-D2,state(time(1),[4,low,med,med])]
+
+(base) spam@Sopams-Mac-mini Car_evaluation % 
+
+
+
+
+
+
+
+
+
+
+
+
